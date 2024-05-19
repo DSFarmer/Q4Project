@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ICT Quiz 2: Page 2 </title>
+	<!-- BS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			width: 300px;
+			margin: 100px auto;
+			padding: 40px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			background: rgb(195, 34, 34);
+			background: linear-gradient(0deg, rgba(195, 34, 34, 1) 0%, rgba(253, 135, 45, 1) 100%);
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		img {
+			border-radius: 50px;
+		}
+
+		input {
+			width: 100%;
+			padding: 10px;
+			margin: 10px;
+			border: 1px solid;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+
+		p {
+			color: black;
+		}
+
+		.navbar {
+			overflow: visible;
+		}
+
+		.navbar a {
+			color: white;
+			float: left;
+			display: block;
+			text-align: center;
+			padding: 15px 20px;
+			text-decoration: none;
+		}
+
+		.navbar a:hover {
+			background-color: #ddd;
+			color: black !important;
+		}
+
+		#content {
+			background-image: url(https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+		.header {
+			column-gap: 50px;
+			padding: 40px;
+		}
+
+		#header_pic {
+			object-fit: cover;
+			width: 1000px;
+			height: 300px;
+		}
+
+		.intro {
+			justify-content: center;
+			border: 7px solid royalblue;
+			border-radius: 100px;
+			align-items: center;
+			display: flex;
+			flex-wrap: wrap;
+			text-align: center;
+			background: rgba(255, 255, 255, 255);
+			padding: 25px;
+			width: 900px;
+			margin: 50px;
+			font-family: Times New Roman, courier, serif;
+			font-style: bold;
+		}
+
+		.content {
+			column-gap: 50px;
+			row-gap: 50px;
+			grid-gap: 40px;
+			padding: 50px;
+			flex-wrap: wrap;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.destinations {
+			border: 7px dashed slateblue;
+			width: 470px;
+			height: 635px;
+			padding-right: 60px;
+			padding-left: 60px;
+			border-radius: 100px;
+			align-items: center;
+			justify-content: center;
+			display: inline-flex;
+			flex-wrap: wrap;
+			background: rgba(255, 255, 255, 255);
+		}
+
+		.header2 {
+			text-align: center;
+			padding: 50px;
+			letter-spacing: 5px;
+			text-decoration: double-underline;
+			background: rgba(173, 216, 230, 0.9);
+			font-family: Times New Roman, courier, serif;
+			text-decoration: underline;
+			text-shadow: -3px 2px 0px rgba(1, 197, 96, 0.89);
+		}
+
+		.header3 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.footer {
+			padding-left: 15px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background: rgba(173, 216, 230, 0.9);
+			text-shadow: -1px 0px 0px rgba(1, 197, 96, 0.89);
+			font-family: Times New Roman, courier, serif;
+		}
+	</style>
+</head>
+
+<body class="bg-danger">
+	<script type=text/javascript>
+        window.alert("Welcome to the Second Quarter Project!")
+    </script>
+	<nav class="mb-3 navbar navbar-expand-sm navbar-dark bg-dark table-bordered">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse d-flex flex-row justify-content-between">
+				<ul class="navbar-nav">
+					<div class="rounded-circle">
+						<img class="rounded-circle" width="65" height="65" src="frog-lol.jpeg">
+					</div>
+					<li class="nav-item">
+						<a class="nav-link" href="mainpage.html"> &ThickSpace; Home </a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> First
+							Quarter </a>
+						<ul class="dropdown-menu text-muted">
+							<p class="mx-2"> HTML </p>
+							<li> <a class="dropdown-item text-dark" href="page2.html"> First Quarter Project </a> </li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Second
+							Quarter </a>
+						<ul class="dropdown-menu text-muted">
+							<p class="mx-2"> CSS </p>
+							<li> <a class="dropdown-item text-dark active" href="page3.html"> Second Quarter Project
+								</a> </li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"> Third
+							Quarter </a>
+						<ul class="dropdown-menu text-muted">
+							<p class="mx-2"> Bootstrap </p>
+							<li> <a class="dropdown-item text-dark" href="page4.html"> Third Quarter Project </a> </li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<form class="ml-auto d-flex flex-row">
+				<input class="form-control" type="text" style="height: 39px; margin-top: 10px; margin-right: 5px;"
+					placeholder="Search..">
+				<button class="btn btn-warning" type="submit" style="height: 39px; margin-top: 10px;"> Search </button>
+			</form>
+	</nav>
+	<div class="mx-5 bg-white" id="content">
+		<hr>
+		<section class="header" id="top">
+			<center> <img id="header_pic"
+					src="https://www.travelmole.com/wp-content/uploads/2022/01/IMFITP_multicolored.png"
+					alt="Photo Gallery Header"> </center>
+		</section>
+		<hr>
+		<div class="header2">
+			<h1> TOP 5 DESTINATIONS IN THE PHILIPPINES <br> PHOTO GALLERY </h1>
+		</div>
+		<hr>
+		<div class="header3">
+			<div class="intro">
+				<br>
+				<p> &ThickSpace; Welcome to the Philippines, Pearl of the Orient Seas. It is an archipelago in Southeast
+					Asia <br> &ThickSpace; known for its beautiful destinations, crystal clear waters, abundant
+					resources, and warm hospitality. The Philippines is heaven for travelers around the world! <br> <br>
+					&ThickSpace; To get started, here are <strong> <b> Top 5 Destinations </b> </strong> that surely
+					wont disappoint: </p> <br>
+				<ul>
+					<li> <a href="#Coron"> Coron </a> </li>
+					<li> <a href="#Siargao"> Siargao </a> </li>
+					<li> <a href="#Baguio"> Baguio </a> </li>
+					<li> <a href="#Bohol"> Bohol </a> </li>
+					<li> <a href="#Cebu"> Cebu </a> </li>
+				</ul>
+
+			</div>
+		</div>
+		<section class="content">
+			<div class="destinations" id="Coron">
+				<h1> &ThickSpace; Coron </h1>
+				&ThickSpace; <img id="img" src="https://theworldtravelguy.com/wp-content/uploads/2020/02/DJI_0195.jpg"
+					width="450" height="300">
+				<p> &ThickSpace; Coron, Palawan is well known for its:
+				<ul>
+					<li> &ThickSpace; Beautiful limestone cliffs with many attractions and sights </li>
+					<li> &ThickSpace; Diving areas with vibrant coral reefs and more marine life </li>
+					<li> &ThickSpace; Crystal-clear waters </li>
+					<li> &ThickSpace; Japanese shipwrecks from World War II </li>
+				</ul>
+				</p>
+			</div>
+
+			<div class="destinations" id="Siargao">
+				<h1> &ThickSpace; Siargao </h1>
+				&ThickSpace; <img id="img"
+					src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/95/5e/23/beautiful-islands-of.jpg?w=1200&h=-1&s=1"
+					width="450" height="300">
+				<p> &ThickSpace; Siargao is also called the surfing capital of the Philippines. It's renowned for:
+				<ul>
+					<li> &ThickSpace; Surfing with big waves </li>
+					<li> &ThickSpace; Beautiful lagoons that are vibrant with marine life </li>
+					<li> &ThickSpace; Cave exploration with many beautiful rocky formations </li>
+					<li> &ThickSpace; Rock climbing, as Siargao is known to be a rocky-region </li>
+				</ul>
+				</p>
+			</div>
+
+			<div class="destinations" id="Baguio">
+				<h1> &ThickSpace; Baguio </h1>
+				&ThickSpace; <img id="img"
+					src="https://res.klook.com/image/upload/c_fill,w_750,h_560/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ajr9gdn0scezbllueayx.jpg"
+					width="450" height="300">
+				<p> &ThickSpace; Baguio is known to be the summer capital of the Philippines, it is known for:
+				<ul>
+					<li> &ThickSpace; Cold climate, as Baguio resides as a mountain retreat </li>
+					<li> &ThickSpace; The annual Panagbenga Festival, showing off many flower floats </li>
+					<li> &ThickSpace; Strawberries in Baguio are known to be the best according to Filipino locals </li>
+					<li> &ThickSpace; Baguio Night Market always has thrifty items and clothings to offer coming at you
+						with cheap prices </li>
+				</ul>
+				</p>
+			</div>
+
+			<div class="destinations" id="Bohol">
+				<h1> &ThickSpace; Bohol </h1>
+				&ThickSpace; <img id="img"
+					src="https://breathingtravel.com/wp-content/uploads/2023/07/Where-to-stay-in-bohol-philippines-1024x640.jpg"
+					width="450" height="300">
+				<p> &ThickSpace; Bohol is one of the most popular places in the Philippines, as its known for:
+				<ul>
+					<li> &ThickSpace; Chocolate Hills (cone-shaped hills that turn brown during dry season, making it
+						look like chocolate) </li>
+					<li> &ThickSpace; The famous "Tarsier", one of the worlds smallest animals, only found in the
+						Philippines </li>
+					<li> &ThickSpace; Loboc River, where you can cruise and explore this pristine river, known to be one
+						of the cleanest </li>
+				</ul>
+				</p>
+			</div>
+
+			<div class="destinations" id="Cebu">
+				<h1> &ThickSpace; Cebu </h1>
+				&ThickSpace; <img id="img"
+					src="https://www.weseektravel.com/wp-content/uploads/2019/07/things-to-do-in-cebu-50-1.jpg"
+					width="450" height="300">
+				<p> &ThickSpace; Cebu is a city known for its rich history and culture, its renowned for:
+				<ul>
+					<li> &ThickSpace; The Magellans cross, which was planted by our Spanish-Portguese colonizers, which
+						is now a monument </li>
+					<li> &ThickSpace; Moalboal, where tourists can swim with whale sharks </li>
+					<li> &ThickSpace; The beautiful beaches of Mactan Island, known to be a place for island hopping
+					</li>
+				</ul>
+				</p>
+			</div>
+		</section>
+		<hr>
+		<section class="footer">
+			<center>
+				<h3> &ThickSpace; For more recommended places, click below: </h3>
+				<button type="submit" id="places"> <a
+						href="https://www.thrillophilia.com/places-to-visit-in-philippines" target="_blank"> More
+						Destinations in the Philippines </a> </button>
+				<br>
+				<br>
+				<h6> &ThickSpace; Or read again... <button> <a href="#top"> Back to Top </a> </button> </h6>
+				<br>
+			</center>
+		</section>
+	</div>
+	<br>
+</body>
+</html>
